@@ -13,8 +13,12 @@ export const theme = extendTheme({
       250: '#DADADA',
     },
   },
-  fonts: {
-    heading: 'Poppins',
-    body: 'Poppins',
+  styles: {
+    global: {
+      fonts: {
+        heading: 'Poppins',
+        body: 'Poppins',
+      },
+    },
   },
 });
