@@ -1,5 +1,5 @@
 import { Box, Image, Heading, Text, HStack } from '@chakra-ui/react'
-import background from "./images/Background.svg"
+
 export const Banner = () => {
   return (
     <>
