@@ -1,3 +1,4 @@
+import { Text, Box } from '@chakra-ui/react'
 import Image from 'next/image'
 
 interface TravelTypeProps {
@@ -7,11 +8,11 @@ interface TravelTypeProps {
 
 export const TravelType = ({ image, description }: TravelTypeProps): JSX.Element => {
   return (
-    <div>
-      <div>
+    <Box>
+      <Box display="flex" justifyContent="center">
         {image}
-      </div>
-      <h3>{description}</h3>
-    </div>
+      </Box>
+      <Text p="8" fontWeight="bold" fontSize="2xl" color="gray.650">{description}</Text>
+    </Box>
   )
 }

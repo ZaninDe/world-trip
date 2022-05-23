@@ -11,6 +11,7 @@ export const theme = extendTheme({
     gray: {
       20: '#F5F8FA',
       250: '#DADADA',
+      650: '#47585B',
     },
   },
   styles: {
