@@ -1,4 +1,4 @@
-import { HStack, Box, Center } from '@chakra-ui/react';
+import { HStack, VStack, Box, Center, Text } from '@chakra-ui/react';
 import { TravelType } from './TravelType';
 
 export const NavTravelTypes = () => {
@@ -11,8 +11,13 @@ export const NavTravelTypes = () => {
         <TravelType image={<img alt="" src="./images/museum.svg" />} description="clássico" />
         <TravelType image={<img alt="" src="./images/earth.svg" />} description="e mais..." />
       </HStack>
-      <Center>
-        <Box w="90px" borderTop="solid" />
+      <Center display='flex'>
+        <VStack>
+          <Box w='90px' borderTop='solid' mb="24" />
+          <Text fontSize='4xl' color='gray.650'>
+            Hello, what a beautiful design we have here!
+          </Text >
+        </VStack>
       </Center>
 
     </>
