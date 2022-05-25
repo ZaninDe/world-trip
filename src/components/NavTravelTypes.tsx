@@ -11,12 +11,17 @@ export const NavTravelTypes = () => {
         <TravelType image={<img alt="" src="./images/museum.svg" />} description="clássico" />
         <TravelType image={<img alt="" src="./images/earth.svg" />} description="e mais..." />
       </HStack>
-      <Center display='flex'>
+      <Center>
         <VStack>
-          <Box w='90px' borderTop='solid' mb="24" />
-          <Text fontSize='4xl' color='gray.650'>
-            Hello, what a beautiful design we have here!
+          <Box w='90px' borderTop='solid' mb='24' color='gray.650' />
+
+          <Text fontSize='4xl' color='gray.650' fontWeight='bold'>
+            Vamos nessa? <br />
           </Text >
+          <Text fontSize='4xl' color='gray.650' fontWeight='bold'>
+            Então escolha seu continente
+          </Text>
+
         </VStack>
       </Center>
 
