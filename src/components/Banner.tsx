@@ -3,7 +3,7 @@ import { Box, Image, Heading, Text, HStack } from '@chakra-ui/react'
 export const Banner = () => {
   return (
     <>
-      <HStack spacing="30%" w="full" bgImage="url('./images/Background.svg')" h={["200px", "335px"]}>
+      <HStack spacing="30%" w="full" bgImage="url('./images/testeHeader.jpg')" h={["200px", "335px"]}>
 
         <Box ml="24">
           <Heading fontSize="4xl" mb="5" pt="14" color="gray.20">5 Continentes, <br />
