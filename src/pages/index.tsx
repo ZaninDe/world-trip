@@ -7,7 +7,6 @@ import { ContinentSlide } from '../components/ContinenSlide'
 const Home: NextPage = () => {
   return (
     <>
-      <Header />
       <Banner />
       <NavTravelTypes />
       <ContinentSlide />
